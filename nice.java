@@ -8,7 +8,7 @@ public class nice{
     public void printQuotient(float x, float y){
 
         float remainder = x/y; 
-        System.out.printf(remainder, 3)
+        System.out.printf("%.3f%n", remainder);
 
     }
 
