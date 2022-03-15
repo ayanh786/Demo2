@@ -1,5 +1,4 @@
 //hello
-interface 
 
 public class nice {
     public nice(){
