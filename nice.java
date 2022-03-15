@@ -1,6 +1,11 @@
 //hello
 
 public class nice{
+
+	interface PerfectSquare{
+		boolean ps(int num);
+	}
+
     public nice(){
 
     }
