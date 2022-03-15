@@ -4,17 +4,18 @@ interface
 public class nice {
     public nice(){
 
-       System.out.printf("%.3f%n", getQuotient.remainder(153, 27));
+       getQuotient.remainder(33, 159); 
+
     }
 
     interface Quotient{
       
-        float remainder(x, y); 
+        void remainder(x, y); 
 
     } 
 
     public static Quotient getQuotient(){
-        return (x, y) -> x/y; 
+        float q =  (x, y) -> System.out.printf("%.3f%n", x/y);; 
     }
 
     public static void main(String args[]){
