@@ -1,7 +1,10 @@
 //hello
 interface 
 
-public class nice {
+public class nice{
+	interface PerfectSquare{
+		boolean ps(int num);
+	}
     public nice(){
 
        System.out.printf("%.3f%n", getQuotient.remainder(153, 27));
