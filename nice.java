@@ -1,27 +1,24 @@
 //hello
-interface 
-
+import java.awt.print.*;
 public class nice {
-    
+
     public nice(){
-        getQuotient.remainder(33, 159); 
+        Quotient q =  (x, y) -> System.out.printf("%.3f%n", x/y);
+        q.remainder(200, 23);
        	System.out.println(getPerfectSquare().ps(169));
     }
-    
+
     interface Quotient{
-        void remainder(x, y); 
+        void remainder(float x, float y);
     }
-    public static Quotient getQuotient(){
-        float q =  (x, y) -> System.out.printf("%.3f%n", x/y);; 
-    }
-    
+
     interface PerfectSquare{
 		boolean ps(int num);
 	}
     public static PerfectSquare getPerfectSquare(){
 		return (num) -> Math.sqrt(num)-Math.floor(Math.sqrt(num))==0;
 	}
-    
+
     public static void main(String args[]){
         nice n = new nice();
     }
