@@ -1,15 +1,20 @@
 //hello
+interface 
 
-public class nice{
+public class nice {
     public nice(){
 
+       System.out.printf("%.3f%n", getQuotient.remainder(153, 27));
     }
 
-    public void printQuotient(float x, float y){
+    interface Quotient{
+      
+        float remainder(x, y); 
 
-        float remainder = x/y; 
-        System.out.printf("%.3f%n", remainder);
+    } 
 
+    public static Quotient getQuotient(){
+        return (x, y) -> x/y; 
     }
 
     public static void main(String args[]){
